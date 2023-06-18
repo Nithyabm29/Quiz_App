@@ -127,7 +127,8 @@ class _QuizPageState extends State<QuizPage> {
         Alert(
           context: context,
           title: 'Finished!',
-          desc: 'You\'ve reached the end of the quiz.',
+          desc:
+              'You\'ve reached the end of the quiz.\n Your quiz will restart from beginning',
         ).show();
         quizBrain.reset();
         scoreKeeper = [];
